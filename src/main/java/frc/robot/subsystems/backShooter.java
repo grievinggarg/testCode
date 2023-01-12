@@ -22,7 +22,7 @@ public class backShooter extends SubsystemBase {
   }
 
   public void moveBackShooter(double speed){
-    BackShooter.set(TalonFXControlMode.PercentOutput, 0.5);
+    BackShooter.set(TalonFXControlMode.PercentOutput, 0.4);
   }  
 
 
